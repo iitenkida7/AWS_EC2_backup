@@ -1,8 +1,8 @@
 #!/bin/bash
+BASE_DIR=$(cd $(dirname $0);pwd)
 source ${BASE_DIR}/config
 
 AWS_PROFILE=$1
-BASE_DIR=$(cd $(dirname $0);pwd)
 
 AGO=$(date -u -d "${N_DAY} day ago" '+%s')
 
