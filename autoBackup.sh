@@ -1,4 +1,5 @@
 #!/bin/bash
+source ${BASE_DIR}/config
 
 BASE_DIR=$(cd $(dirname $0);pwd)
 

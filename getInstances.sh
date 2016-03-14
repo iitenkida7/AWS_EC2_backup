@@ -1,4 +1,5 @@
 #!/bin/bash
+source ${BASE_DIR}/config
 
 AWS_PROFILE=$1
 
